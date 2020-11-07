@@ -24,8 +24,7 @@ new Vue({
 
          updateXY: function(event) {
              this.x = event.offsetX
-             this.y = event.offsetX
-
+             this.y = event.offsetY
          }
 
      },
