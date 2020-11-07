@@ -5,6 +5,8 @@ new Vue({
         job: 'DevOps',
         website: 'http://www.emirhakan.me',
         age: 19,
+        x: 0,
+        y: 0,
      },
      methods: {
          greet: function(time) {
@@ -19,6 +21,12 @@ new Vue({
              this.age -= year;
              console.log("subtracted " + year + " year.")
          },
+
+         updateXY: function(event) {
+             this.x = event.offsetX
+             this.y = event.offsetX
+
+         }
 
      },
 });
