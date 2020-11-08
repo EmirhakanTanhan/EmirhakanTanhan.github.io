@@ -7,12 +7,20 @@
 </head>
 <body>
     <div id="vue-app">
-        <label>name:</label>
-        <input v-model="name" type="text">
-        <span> {{name}} </span>
-        <label>age:</label>
-        <input v-model="age" type="text">
-        <span> {{age}} </span>
+        <!-- bag image -->
+        <div id="bag" v-bind:class="{ burst: ended }"></div>
+
+        <!-- bag health -->
+        <div id="bag-health">
+            <div v-bind:style="{width: health + '%'}" ></div>
+        </div>
+
+        <!-- game control -->
+        <div id="controls">
+            <button v-show="!ended" v-on:click="punch" >Punch</button>
+            <button v-on:click="restart" >Restart</button>
+        </div>
+
     </div>
 
     <script src="app.js"></script>
