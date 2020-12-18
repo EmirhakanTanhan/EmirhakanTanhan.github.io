@@ -25,6 +25,7 @@
 	<link rel="stylesheet" href="css/owl.carousel.css" />
 	<link rel="stylesheet" href="css/swiper.css" />
 	<link rel="stylesheet" href="css/fontawesome.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
 
 	<!-- Theme Colors
 	<link rel="stylesheet" href="css/theme-colors/blue.css" />
@@ -73,8 +74,8 @@
 			<!-- logo -->
 			<div class="logo">
 				<a href="#">
-					<img class="logo-img" src="images/logo.png" alt="" />
-					<span class="logo-lnk">Joé <br />Wilson</span>
+					<!-- <img class="logo-img" src="images/logo.png" alt="" /> -->
+					<span class="logo-lnk">Emirhakan <br />Tanhan</span>
 				</a>
 			</div>
 
@@ -95,17 +96,10 @@
 					<div class="top-menu-nav">	
 						<div class="menu-topmenu-container">
 							<ul class="menu">
-								<li class="menu-item current-menu-item menu-item-has-children">
+								<li class="menu-item current-menu-item">
 									<a href="#section-started">
 										<span class="animated-button"><span>Home</span></span>
 									</a>
-									<ul class="sub-menu">
-										<li class="menu-item current-menu-item"><a href="index.html">Home 1</a></li>
-										<li class="menu-item"><a href="index-2.html">Home 2</a></li>
-										<li class="menu-item"><a href="index-3.html">Home 3</a></li>
-										<li class="menu-item"><a href="index-slider.html">Home Slider</a></li>
-										<li class="menu-item"><a href="index-video.html">Home Video</a></li>
-									</ul>
 								</li>
 								<li class="menu-item">
 									<a href="#section-about">
@@ -117,11 +111,11 @@
 										<span class="animated-button"><span>Resume</span></span>
 									</a>
 								</li>
-								<li class="menu-item">
+								<!-- <li class="menu-item">
 									<a href="#section-portfolio">
 										<span class="animated-button"><span>Portfolio</span></span>
 									</a>
-								</li>
+								</li> -->
 								<li class="menu-item">
 									<a href="#section-contacts">
 										<span class="animated-button"><span>Contact</span></span>
@@ -153,7 +147,7 @@
 
 						<!-- title -->
 						<h1 class="h-title">
-							Joé <br />Wilson
+							Emirhakan <br />Tanhan
 						</h1>
 
 						<!-- content started -->
@@ -162,20 +156,22 @@
 							<!-- subtitle -->
 							<div class="h-subtitles">
 								<div class="h-subtitle typing-subtitle">
-									<p>Consultant and Mentor</p>
-									<p>Web Designer</p>
-									<p>Programmer</p>
+									<p>IS A SOFTWARE ENGINEERING STUDENT.</p>
+									<p>IS AN INTERN AT FRELENS.</p>
+									<p>IS A WEB DESIGNER.</p>
+									<p>IS A PROGRAMMER.</p>
+									<p>IS SOMEONE YOU CAN TRUST.</p>
 								</div>
 								<span class="typed-subtitle"></span>
 							</div>
 
 							<!-- text -->
 							<div class="h-text">
-								Hello! I am Web Developer from United States, New York. I have rich experience in web site design and building, also I am good at wordpress. I love to talk with you about our unique.
+								Hello! I am a -wanna be- Web Developer from Turkey, Istanbul. I have rich experience in web site design and building. I love to talk with you about our unique.
 							</div>
 
 							<!-- button -->
-							<a href="#" class="btn">
+							<a href="#section-contacts" class="btn">
 								<span class="animated-button"><span>Contact Me</span></span>
 								<i class="icon fas fa-chevron-right"></i>
 							</a>
@@ -229,12 +225,12 @@
 					<!-- info list -->
 					<div class="info-list">
 						<ul>
-							<li><strong>Age:</strong> 24</li>
-							<li><strong>Residence:</strong> USA</li>
-							<li><strong>Freelance:</strong> Available</li>
-							<li><strong>Address:</strong> San Francisco</li>
-							<li><strong>Phone:</strong> +1 256 254 84 56</li>
-							<li><strong>E-mail:</strong> alejandroa@gmail.com</li>
+							<li><strong>Age:</strong> 20</li>
+							<li><strong>Residence:</strong> TR</li>
+							<li><strong>Job:</strong> Intern at FRELENS A.Ş.</li>
+							<li><strong>Address:</strong> Istanbul / Etiler</li>
+							<li><strong>Phone:</strong> <a href="tel:0546 432 1911">+90 0546 432 1911</a></li>
+							<li><strong>E-mail:</strong> <a href="mailto:emirhakan.tanhan@gmail.com">e.tanhan@frelens.com</a></li>
 						</ul>
 					</div>
 
@@ -242,7 +238,7 @@
 				</div>
 			</div>
 
-			<!-- Section Service -->
+			<!-- Section Service --> 
 			<div class="section service" id="section-services">
 				<div class="content">
 
@@ -257,30 +253,6 @@
 
 						<div class="service-col">
 							<div class="service-item">
-								<div class="icon"><i class="fas fa-brain"></i></div>
-								<div class="name">Economic <br />Science</div>
-								<div class="single-post-text">
-									<p>
-										Economics is a social science concerned with the production, consumption of goods and services.
-									</p>
-								</div>
-							</div>
-						</div>
-						
-						<div class="service-col">
-							<div class="service-item">
-								<div class="icon"><i class="icon fas fa-ad"></i></div>
-								<div class="name">Marketing <br />& Advertising</div>
-								<div class="single-post-text">
-									<p>
-										Advertising Management though is a complex process of employing various media to sell a product or service.
-									</p>
-								</div>
-							</div>
-						</div>
-
-						<div class="service-col">
-							<div class="service-item">
 								<div class="icon"><i class="icon fab fa-chrome"></i></div>
 								<div class="name">Web <br />Development</div>
 								<div class="single-post-text">
@@ -291,49 +263,14 @@
 							</div>
 						</div>
 
-						<div class="service-col">
-							<div class="service-item">
-								<div class="icon"><i class="icon fas fa-headphones"></i></div>
-								<div class="name">Music <br />Writing</div>
-								<div class="single-post-text">
-									<p>
-										Sheet music is the basic form in which Western classical music is notated so that it can be learned and performed by solo singers.
-									</p>
-								</div>
-							</div>
-						</div>
-
-						<div class="service-col">
-							<div class="service-item">
-								<div class="icon"><i class="icon fas fa-gamepad"></i></div>
-								<div class="name">Game <br />Development</div>
-								<div class="single-post-text">
-									<p>
-										Come Up With a Game Idea. An idea is the first thing that comes to mind when a game is being described before creating.
-									</p>
-								</div>
-							</div>
-						</div>
-
-						<div class="service-col">
-							<div class="service-item">
-								<div class="icon"><i class="fas fa-video"></i></div>
-								<div class="name">Photography <br />& Video</div>
-								<div class="single-post-text">
-									<p>
-										Sessions. If you are a photographer that spends most of the time in a portrait studio, you can charge for your session.
-									</p>
-								</div>
-							</div>
-						</div>
-
 					</div>
 
 					<div class="clear"></div>
 				</div>
 			</div>
-
-			<!-- Section Pricing -->
+			
+			<?php /* ?>
+			<!-- Section Pricing --> 
 			<div class="section pricing" id="section-pricing">
 				<div class="content">
 
@@ -439,9 +376,10 @@
 					</div>
 
 				</div>
-			</div>
+			</div> 
+			<?php */ ?>
 
-			<!-- Section Resume -->
+			<!-- Section Resume Experience -->
 			<div class="section resume" id="section-experience">
 				<div class="content">
 
@@ -458,10 +396,10 @@
 							<div class="item">
 								<div class="resume-item active">
 									<div class="date">Present</div>
-									<div class="name">The Turin <br />Olympics</div>
+									<div class="name">Frelens <br /> A.Ş.</div>
 									<div class="single-post-text">
 										<p>
-											Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.
+											FRELENS is a new generation work platform that aims to ensure that students continuing their university education or newly graduated candidates meet the opportunities of the business world and take part in professional business processes.
 										</p>
 									</div>
 								</div>
@@ -469,47 +407,11 @@
 
 							<div class="item">
 								<div class="resume-item">
-									<div class="date">2016-2018</div>
-									<div class="name">Red <br />Drifting</div>
+									<div class="date">2019-2020</div>
+									<div class="name"> <br />Freelance </div>
 									<div class="single-post-text">
 										<p>
-											Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.
-										</p>
-									</div>
-								</div>
-							</div>
-
-							<div class="item">
-								<div class="resume-item">
-									<div class="date">2014-2016</div>
-									<div class="name">World <br />Economy</div>
-									<div class="single-post-text">
-										<p>
-											Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.
-										</p>
-									</div>
-								</div>
-							</div>
-
-							<div class="item">
-								<div class="resume-item">
-									<div class="date">2012-2014</div>
-									<div class="name">Art Director <br />Facebook</div>
-									<div class="single-post-text">
-										<p>
-											Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.
-										</p>
-									</div>
-								</div>
-							</div>
-
-							<div class="item">
-								<div class="resume-item">
-									<div class="date">2010-2012</div>
-									<div class="name">Art Director <br />Facebook</div>
-									<div class="single-post-text">
-										<p>
-											Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.
+											Doing work on my own in my sparetime while i study software engineering.
 										</p>
 									</div>
 								</div>
@@ -528,7 +430,7 @@
 				</div>
 			</div>
 
-			<!-- Section Resume -->
+			<!-- Section Resume Education -->
 			<div class="section resume" id="section-education">
 				<div class="content">
 
@@ -544,11 +446,11 @@
 
 							<div class="item">
 								<div class="resume-item active">
-									<div class="date">2011-2012</div>
-									<div class="name">Art University <br />New York</div>
+									<div class="date">Present</div>
+									<div class="name">Manisa Celâl Bayar <br />University</div>
 									<div class="single-post-text">
 										<p>
-											Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.
+											Currently studying as a 3rd year. Due to coronavirus, im in my hometown doing online courses.
 										</p>
 									</div>
 								</div>
@@ -556,47 +458,11 @@
 
 							<div class="item">
 								<div class="resume-item">
-									<div class="date">2010-2011</div>
-									<div class="name">Programming Course <br />Paris</div>
+									<div class="date">2014-2018</div>
+									<div class="name">Cemile Yeşil <br />Anatolian High School</div>
 									<div class="single-post-text">
 										<p>
-											Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.
-										</p>
-									</div>
-								</div>
-							</div>
-
-							<div class="item">
-								<div class="resume-item">
-									<div class="date">2009-2010</div>
-									<div class="name">Web Design Course <br />London</div>
-									<div class="single-post-text">
-										<p>
-											Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.
-										</p>
-									</div>
-								</div>
-							</div>
-
-							<div class="item">
-								<div class="resume-item">
-									<div class="date">2012-2014</div>
-									<div class="name">Art Course <br />London</div>
-									<div class="single-post-text">
-										<p>
-											Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.
-										</p>
-									</div>
-								</div>
-							</div>
-
-							<div class="item">
-								<div class="resume-item">
-									<div class="date">2010-2012</div>
-									<div class="name">Art Course <br />London</div>
-									<div class="single-post-text">
-										<p>
-											Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.
+											Made friendships that lasted to this day. Graduated with high grades leading up to Celâl Bayar.
 										</p>
 									</div>
 								</div>
@@ -610,6 +476,97 @@
 							<span class="next fas fa-chevron-right"></span>
 						</div>
 
+					</div>
+
+				</div>
+			</div>
+
+			<!-- Section Coding Skills -->
+			<div class="section skills" id="section-skills-code">
+				<div class="content">
+					
+					<!-- title -->
+					<div class="titles">
+						<div class="title">Coding Skills</div>
+						<div class="subtitle">Developing on</div>
+					</div>
+
+					<!-- skills items-->
+					<div class="skills circles">
+						<ul>
+							<li>
+								<div class="progress p60"> <!-- p90 = 90% circle fill color -->
+									<div class="percentage"></div>
+									<span>90%</span>
+								</div>
+								<div class="name">C, C#</div>
+								<div class="single-post-text">
+									<p>
+										Etiam sit amet orci eget eros faucibus tincidunt.
+									</p>
+								</div>
+							</li>
+							<li>
+								<div class="progress p50"> <!-- p75 = 75% circle fill color -->
+									<div class="percentage"></div>
+									<span>75%</span>
+								</div>
+								<div class="name">PHP, MYSQL</div>
+								<div class="single-post-text">
+									<p>
+										Etiam sit amet orci eget eros faucibus tincidunt.
+									</p>
+								</div>
+							</li>
+							<li>
+								<div class="progress p60"> <!-- p85 = 85% circle fill color -->
+									<div class="percentage"></div>
+									<span>85%</span>
+								</div>
+								<div class="name">JavaScript</div>
+								<div class="single-post-text">
+									<p>
+										Etiam sit amet orci eget eros faucibus tincidunt.
+									</p>
+								</div>
+							</li>
+							<li>
+								<div class="progress p20"> <!-- p80 = 80% circle fill color -->
+									<div class="percentage"></div>
+									<span>80%</span>
+								</div>
+								<div class="name">Vue</div>
+								<div class="single-post-text">
+									<p>
+										Etiam sit amet orci eget eros faucibus tincidunt.
+									</p>
+								</div>
+							</li>
+							<li>
+								<div class="progress p70"> <!-- p95 = 95% circle fill color -->
+									<div class="percentage"></div>
+									<span>95%</span>
+								</div>
+								<div class="name">HTML, CSS</div>
+								<div class="single-post-text">
+									<p>
+										Etiam sit amet orci eget eros faucibus tincidunt.
+									</p>
+								</div>
+							</li>
+							<li>
+								<div class="progress p90"> <!-- p90 = 90% circle fill color -->
+									<div class="percentage"></div>
+									<span>90%</span>
+								</div>
+								<div class="name">Python</div>
+								<div class="single-post-text">
+									<p>
+										Etiam sit amet orci eget eros faucibus tincidunt.
+									</p>
+								</div>
+							</li>
+						</ul>
 					</div>
 
 				</div>
@@ -685,7 +642,7 @@
 
 				</div>
 			</div>
-
+			
 			<!-- Section Languages Skills -->
 			<div class="section skills" id="section-skills-lang">
 				<div class="content">
@@ -756,97 +713,6 @@
 
 				</div>
 
-			</div>
-
-			<!-- Section Coding Skills -->
-			<div class="section skills" id="section-skills-code">
-				<div class="content">
-					
-					<!-- title -->
-					<div class="titles">
-						<div class="title">Coding Skills</div>
-						<div class="subtitle">Developing on</div>
-					</div>
-
-					<!-- skills items-->
-					<div class="skills circles">
-						<ul>
-							<li>
-								<div class="progress p90"> <!-- p90 = 90% circle fill color -->
-									<div class="percentage"></div>
-									<span>90%</span>
-								</div>
-								<div class="name">WordPress</div>
-								<div class="single-post-text">
-									<p>
-										Etiam sit amet orci eget eros faucibus tincidunt.
-									</p>
-								</div>
-							</li>
-							<li>
-								<div class="progress p75"> <!-- p75 = 75% circle fill color -->
-									<div class="percentage"></div>
-									<span>75%</span>
-								</div>
-								<div class="name">PHP, MYSQL</div>
-								<div class="single-post-text">
-									<p>
-										Etiam sit amet orci eget eros faucibus tincidunt.
-									</p>
-								</div>
-							</li>
-							<li>
-								<div class="progress p85"> <!-- p85 = 85% circle fill color -->
-									<div class="percentage"></div>
-									<span>85%</span>
-								</div>
-								<div class="name">JavaScript</div>
-								<div class="single-post-text">
-									<p>
-										Etiam sit amet orci eget eros faucibus tincidunt.
-									</p>
-								</div>
-							</li>
-							<li>
-								<div class="progress p80"> <!-- p80 = 80% circle fill color -->
-									<div class="percentage"></div>
-									<span>80%</span>
-								</div>
-								<div class="name">Angular</div>
-								<div class="single-post-text">
-									<p>
-										Etiam sit amet orci eget eros faucibus tincidunt.
-									</p>
-								</div>
-							</li>
-							<li>
-								<div class="progress p95"> <!-- p95 = 95% circle fill color -->
-									<div class="percentage"></div>
-									<span>95%</span>
-								</div>
-								<div class="name">HTML, CSS</div>
-								<div class="single-post-text">
-									<p>
-										Etiam sit amet orci eget eros faucibus tincidunt.
-									</p>
-								</div>
-							</li>
-							<li>
-								<div class="progress p90"> <!-- p90 = 90% circle fill color -->
-									<div class="percentage"></div>
-									<span>90%</span>
-								</div>
-								<div class="name">Python</div>
-								<div class="single-post-text">
-									<p>
-										Etiam sit amet orci eget eros faucibus tincidunt.
-									</p>
-								</div>
-							</li>
-						</ul>
-					</div>
-
-				</div>
 			</div>
 
 			<!-- Section Testimonials -->
@@ -1379,6 +1245,7 @@
 	<script src="js/owl.carousel.js"></script>
 	<script src="js/swiper.js"></script>
 	<script src="js/scripts.min.js"></script>
+	<script src="https://use.fontawesome.com/e03a719a49.js"></script>
 
 </body>
 </html>
