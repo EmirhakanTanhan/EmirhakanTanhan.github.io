@@ -1,1 +1,0 @@
-# EmirhakanTanhan.github.io
