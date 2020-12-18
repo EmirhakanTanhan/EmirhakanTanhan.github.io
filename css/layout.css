@@ -28,7 +28,7 @@
 	position: fixed;
 	left: 50px;
 	right: 50px;
-	top: 40px;
+	top: 10px;
 	height: 80px;
 	z-index: 100;
 	background: #585d65;
@@ -742,7 +742,7 @@
 }
 
 .section.started .h-title {
-	margin: 40px 0 0 -11vw;
+	margin: 40px 0 0 -8vw;
 	padding: 4.2vw;
 	font-size: 4.2vw;
 	line-height: 1.2;
@@ -2882,7 +2882,7 @@ iframe, object {
 	margin-bottom: 15px;
 	height: 54px;
 	line-height: 54px;
-	font-size: 16px;
+	font-size: 22px;
 	color: #FFF;
 	text-align: center;
 	background: #373b40;

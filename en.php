@@ -26,6 +26,7 @@
 	<link rel="stylesheet" href="css/swiper.css" />
 	<link rel="stylesheet" href="css/fontawesome.css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+	<link rel="stylesheet" href="css/mine.css" />
 
 	<!-- Theme Colors
 	<link rel="stylesheet" href="css/theme-colors/blue.css" />
@@ -45,7 +46,7 @@
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 
-	<link rel="shortcut icon" href="images/favicons/favicon.ico">
+	<link rel="shortcut icon" href="images/favicon.ico">
 
 </head>
 
@@ -69,7 +70,7 @@
 	<div class="container">
 	
 		<!-- Header -->
-		<header class="header">
+		<header class="header ">
 
 			<!-- logo -->
 			<div class="logo">
@@ -83,7 +84,7 @@
 			<a href="#" class="menu-btn"><span></span></a>
 				
 			<!-- download cv button -->
-			<a href="#" class="btn download-cv-btn">
+			<a href="/CV_file/Emirhakan Tanhan.cv.pdf" download="Emirhakan_Tanhan_CV" class="btn download-cv-btn">
 				<span class="animated-button"><span>Download CV</span></span>
 				<i class="icon fas fa-download"></i>
 			</a>
@@ -136,7 +137,7 @@
 			<!-- Background -->
 			<div class="background-bg">
 				<div class="background-filter">
-					<div class="background-img" style="background-image: url(images/man.jpg);"></div>
+					<div class="background-img" style="background-image: url(images/me.jpg);"></div>
 				</div>
 			</div>
 
@@ -167,18 +168,13 @@
 
 							<!-- text -->
 							<div class="h-text">
-								Hello! I am a -wanna be- Web Developer from Turkey, Istanbul. I have rich experience in web site design and building. I love to talk with you about our unique.
+								Greetings! I'm a software engineering student from Turkey. <br> I'm new, yet experienced in web site design and building. If you have anything to say, you can use contact button.
 							</div>
 
 							<!-- button -->
 							<a href="#section-contacts" class="btn">
 								<span class="animated-button"><span>Contact Me</span></span>
 								<i class="icon fas fa-chevron-right"></i>
-							</a>
-
-							<!-- mosue button -->
-							<a href="#" class="btn mouse-btn" style="display: none;">
-								<i class="icon fas fa-chevron-down"></i>
 							</a>
 
 						</div>
@@ -202,21 +198,21 @@
 						<div class="col">
 							<div class="single-post-text">
 								<p>
-									Pellentesque posuere. Praesent turpis. Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus.
+									Born and raised in Istanbul, Turkey. İstanbul was the hometown until age of 10, then we shifted one province left to Tekirdağ. Such a friendly town
 								</p>
 							</div>
 						</div>
 						<div class="col">
 							<div class="single-post-text">
 								<p>
-									Pellentesque posuere. Praesent turpis. Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus.
+									There i graduated from high school and went to Manisa, where my university is. That too, a friendly town.
 								</p>
 							</div>
 						</div>
 						<div class="col col-full">
 							<div class="single-post-text">
 								<p>
-									Pellentesque posuere. Praesent turpis. Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus. Donec elit libero, sodales nec, volutpat a, suscipit non, turpis.
+									If you watch close, you can find me playing games and writing codes. If not any of those, i may be shopping ties online.  
 								</p>
 							</div>
 						</div>
@@ -228,9 +224,11 @@
 							<li><strong>Age:</strong> 20</li>
 							<li><strong>Residence:</strong> TR</li>
 							<li><strong>Job:</strong> Intern at FRELENS A.Ş.</li>
-							<li><strong>Address:</strong> Istanbul / Etiler</li>
+							<li><strong>Address:</strong> İstanbul | Tekirdağ</li>
 							<li><strong>Phone:</strong> <a href="tel:0546 432 1911">+90 0546 432 1911</a></li>
-							<li><strong>E-mail:</strong> <a href="mailto:emirhakan.tanhan@gmail.com">e.tanhan@frelens.com</a></li>
+							<li><strong>E-mail:</strong> <a href="mailto:e.tanhan@frelens.com">e.tanhan@frelens.com</a>
+							<a style="position:relative; left:31px" href="mailto:emirhakan.tanhan@gmail.com">emirhakan.tanhan@gmail.com</a>
+							</li>
 						</ul>
 					</div>
 
@@ -268,6 +266,116 @@
 					<div class="clear"></div>
 				</div>
 			</div>
+			
+			<?php /* ?>
+			<!-- Section Pricing --> 
+			<div class="section pricing" id="section-pricing">
+				<div class="content">
+
+					<!-- title -->
+					<div class="titles">
+						<div class="title">Pricing</div>
+						<div class="subtitle">My Plans</div>
+					</div>
+
+					<!-- pricing items -->
+					<div class="content-carousel">
+						<div class="owl-carousel" data-slidesview="2" data-slidesview_mobile="1">
+
+							<div class="item">
+								<div class="pricing-item">
+									<div class="icons"><i class="fas fa-star"></i></div>
+									<div class="name">Basic</div>
+									<div class="amount">
+										<span class="number">
+											<span class="dollar">$</span>
+											<span>39</span>
+											<span class="period">hour</span>
+										</span>
+									</div>
+									<div class="feature-list">
+										<ul>
+											<li>Web Development</li>
+											<li>Advetising</li>
+											<li>Game Development</li>
+											<li class="disable">Music Writing</li>
+											<li class="disable">Photography</li>
+										</ul>
+									</div>
+									<a href="#" class="btn">
+										<span class="animated-button"><span>Buy Now</span></span>
+										<i class="icon fas fa-chevron-right"></i>
+									</a>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="pricing-item">
+									<div class="icons"><i class="fas fa-rocket"></i></div>
+									<div class="name">Premium</div>
+									<div class="amount">
+										<span class="number">
+											<span class="dollar">$</span>
+											<span>59</span>
+											<span class="period">hour</span>
+										</span>
+									</div>
+									<div class="feature-list">
+										<ul>
+											<li>Web Development</li>
+											<li>Advetising</li>
+											<li>Game Development</li>
+											<li>Music Writing</li>
+											<li>Photography <strong>new</strong></li>
+										</ul>
+									</div>
+									<a href="#" class="btn">
+										<span class="animated-button"><span>Buy Now</span></span>
+										<i class="icon fas fa-chevron-right"></i>
+									</a>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="pricing-item">
+									<div class="icons"><i class="fas fa-rocket"></i></div>
+									<div class="name">Ultimate</div>
+									<div class="amount">
+										<span class="number">
+											<span class="dollar">$</span>
+											<span>59</span>
+											<span class="period">hour</span>
+										</span>
+									</div>
+									<div class="feature-list">
+										<ul>
+											<li>Web Development</li>
+											<li>Advetising</li>
+											<li>Game Development</li>
+											<li>Music Writing</li>
+											<li>Photography <strong>new</strong></li>
+										</ul>
+									</div>
+									<a href="#" class="btn">
+										<span class="animated-button"><span>Buy Now</span></span>
+										<i class="icon fas fa-chevron-right"></i>
+									</a>
+								</div>
+							</div>
+
+						</div>
+
+						<!-- navigation -->
+						<div class="navs">
+							<span class="prev fas fa-chevron-left"></span>
+							<span class="next fas fa-chevron-right"></span>
+						</div>
+
+					</div>
+
+				</div>
+			</div> 
+			<?php */ ?>
 
 			<!-- Section Resume Experience -->
 			<div class="section resume" id="section-experience">
@@ -371,6 +479,7 @@
 				</div>
 			</div>
 
+			<?php /* ?>
 			<!-- Section Coding Skills -->
 			<div class="section skills" id="section-skills-code">
 				<div class="content">
@@ -385,74 +494,76 @@
 					<div class="skills circles">
 						<ul>
 							<li>
-								<div class="progress p60"> <!-- p90 = 90% circle fill color -->
+								<div class="progress p70"> <!-- p95 = 95% circle fill color -->
 									<div class="percentage"></div>
-									<span>90%</span>
+									<span>70%</span>
 								</div>
-								<div class="name">C, C#</div>
+								<div class="name">HTML, CSS</div>
 								<div class="single-post-text">
 									<p>
-										Etiam sit amet orci eget eros faucibus tincidunt.
+										
 									</p>
 								</div>
 							</li>
 							<li>
-								<div class="progress p50"> <!-- p75 = 75% circle fill color -->
+								<div class="progress p60"> <!-- p90 = 90% circle fill color -->
 									<div class="percentage"></div>
-									<span>75%</span>
+									<span>60%</span>
 								</div>
-								<div class="name">PHP, MYSQL</div>
+								<div class="name">C, C#</div>
 								<div class="single-post-text">
 									<p>
-										Etiam sit amet orci eget eros faucibus tincidunt.
+										
 									</p>
 								</div>
 							</li>
 							<li>
 								<div class="progress p60"> <!-- p85 = 85% circle fill color -->
 									<div class="percentage"></div>
-									<span>85%</span>
+									<span>60%</span>
 								</div>
 								<div class="name">JavaScript</div>
 								<div class="single-post-text">
 									<p>
-										Etiam sit amet orci eget eros faucibus tincidunt.
+										
+									</p>
+								</div>
+							</li>
+							
+							<li>
+								<div class="progress p50"> <!-- p75 = 75% circle fill color -->
+									<div class="percentage"></div>
+									<span>50%</span>
+								</div>
+								<div class="name">PHP, MYSQL</div>
+								<div class="single-post-text">
+									<p>
+										
 									</p>
 								</div>
 							</li>
 							<li>
-								<div class="progress p20"> <!-- p80 = 80% circle fill color -->
+								<div class="progress p15"> <!-- p80 = 80% circle fill color -->
 									<div class="percentage"></div>
-									<span>80%</span>
+									<span>15%</span>
 								</div>
 								<div class="name">Vue</div>
 								<div class="single-post-text">
 									<p>
-										Etiam sit amet orci eget eros faucibus tincidunt.
+										
 									</p>
 								</div>
 							</li>
+						
 							<li>
-								<div class="progress p70"> <!-- p95 = 95% circle fill color -->
+								<div class="progress p10"> <!-- p90 = 90% circle fill color -->
 									<div class="percentage"></div>
-									<span>95%</span>
-								</div>
-								<div class="name">HTML, CSS</div>
-								<div class="single-post-text">
-									<p>
-										Etiam sit amet orci eget eros faucibus tincidunt.
-									</p>
-								</div>
-							</li>
-							<li>
-								<div class="progress p90"> <!-- p90 = 90% circle fill color -->
-									<div class="percentage"></div>
-									<span>90%</span>
+									<span>10%</span>
 								</div>
 								<div class="name">Python</div>
 								<div class="single-post-text">
 									<p>
-										Etiam sit amet orci eget eros faucibus tincidunt.
+										
 									</p>
 								</div>
 							</li>
@@ -461,38 +572,25 @@
 
 				</div>
 			</div>
+			<?php */ ?>
 
-			<!-- Section Design Skills -->
+			<!-- Section Design (Coding Now) Skills -->
 			<div class="section skills" id="section-skills">
 				<div class="content">
 
 					<!-- title -->
 					<div class="titles">
-						<div class="title">Design Skills</div>
-						<div class="subtitle">Creative ability</div>
+						<div class="title">Coding Skills</div>
+						<div class="subtitle">Developing On</div>
 					</div>
 
 					<!-- skills items -->
 					<div class="skills percent">
 						<ul>
 							<li>
-								<div class="name">Web Layout</div>
+								<div class="name">HTML, CSS</div>
 								<div class="single-post-text">
 									<p>
-										Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.
-									</p>
-								</div>
-								<div class="progress">
-									<div class="percentage" style="width: 90%;">
-										<span class="percent">90%</span>
-									</div>
-								</div>
-							</li>
-							<li>
-								<div class="name">Illustrations</div>
-								<div class="single-post-text">
-									<p>
-										Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.
 									</p>
 								</div>
 								<div class="progress">
@@ -502,28 +600,38 @@
 								</div>
 							</li>
 							<li>
-								<div class="name">Photoshop</div>
+								<div class="name">C, C#</div>
 								<div class="single-post-text">
 									<p>
-										Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.
 									</p>
 								</div>
 								<div class="progress">
-									<div class="percentage" style="width: 95%;">
-										<span class="percent">95%</span>
+									<div class="percentage" style="width: 60%;">
+										<span class="percent">60%</span>
 									</div>
 								</div>
 							</li>
 							<li>
-								<div class="name">Graphic Design</div>
+								<div class="name">JavaScript</div>
 								<div class="single-post-text">
 									<p>
-										Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.
 									</p>
 								</div>
 								<div class="progress">
-									<div class="percentage" style="width: 85%;">
-										<span class="percent">85%</span>
+									<div class="percentage" style="width: 60%;">
+										<span class="percent">60%</span>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="name">PHP, MYSQL</div>
+								<div class="single-post-text">
+									<p>
+									</p>
+								</div>
+								<div class="progress">
+									<div class="percentage" style="width: 60%;">
+										<span class="percent">60%</span>
 									</div>
 								</div>
 							</li>
@@ -550,7 +658,7 @@
 								<div class="name">English</div>
 								<div class="single-post-text">
 									<p>
-										Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.
+										I did not get any proper english education, yet i believe i'm pretty much above avarage.
 									</p>
 								</div>
 								<div class="progress">
@@ -559,45 +667,7 @@
 									</div>
 								</div>
 							</li>
-							<li>
-								<div class="name">German</div>
-								<div class="single-post-text">
-									<p>
-										Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.
-									</p>
-								</div>
-								<div class="progress">
-									<div class="percentage" style="width: 70%;">
-										<span class="percent">70%</span>
-									</div>
-								</div>
-							</li>
-							<li>
-								<div class="name">Italian</div>
-								<div class="single-post-text">
-									<p>
-										Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.
-									</p>
-								</div>
-								<div class="progress">
-									<div class="percentage" style="width: 55%;">
-										<span class="percent">55%</span>
-									</div>
-								</div>
-							</li>
-							<li>
-								<div class="name">French</div>
-								<div class="single-post-text">
-									<p>
-										Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.
-									</p>
-								</div>
-								<div class="progress">
-									<div class="percentage" style="width: 85%;">
-										<span class="percent">85%</span>
-									</div>
-								</div>
-							</li>
+							
 						</ul>
 					</div>
 
@@ -605,6 +675,7 @@
 
 			</div>
 
+			<?php /* ?>
 			<!-- Section Testimonials -->
 			<div class="section testimonials" id="section-testimonials">
 				<div class="content">
@@ -691,7 +762,9 @@
 					
 				</div>
 			</div>
-
+			<?php */ ?>
+			
+			<?php /* ?>
 			<!-- Section Clients -->
 			<div class="section clients" id="section-clients">
 				<div class="content">
@@ -783,7 +856,9 @@
 					<div class="clear"></div>
 				</div>
 			</div>
+			<?php */ ?>
 
+			<?php /* ?>
 			<!-- Works -->
 			<div class="section works" id="section-portfolio">
 				<div class="content">
@@ -1043,6 +1118,7 @@
 					<div class="clear"></div>
 				</div>
 			</div>
+			<?php */ ?>
 
 			<!-- Section Contacts Info >-->
 			<div class="section contacts" id="section-contacts">
@@ -1056,10 +1132,10 @@
 
 					<!-- contact form -->
 					<div class="contact-form">
-						<form id="cform" method="post">
+						<form id="cform" method="post" action="">
 							<div class="group-val">
 								<div class="label">Full name <strong>*</strong></div>
-   								<input type="text" name="name" placeholder="ej.: Genoveva Lian Hullt" />
+   								<input type="text" name="name" placeholder="e.g: John Miller" />
 							</div>
 							<div class="group-val">
 								<div class="label">Email address <strong>*</strong></div>
@@ -1083,19 +1159,21 @@
 
 					<!-- contact info -->
 					<div class="contact-info">
-						<div class="name">Joe Wilson</div>
-						<div class="subname">Consultant & Mentor</div>
+						<div class="name">Emirhakan Tanhan</div>
+						<div class="subname">Intern</div>
 						<div class="info-list">
 							<ul>
-								<li><strong>Age:</strong> 24</li>
-								<li><strong>Residence:</strong> USA</li>
-								<li><strong>Freelance:</strong> Available</li>
-								<li><strong>Address:</strong> San Francisco</li>
-								<li><strong>Phone:</strong> +1 256 254 84 56</li>
-								<li><strong>E-mail:</strong> alejandroa@gmail.com</li>
+								<li><strong>Age:</strong> 20</li>
+								<li><strong>Residence:</strong> TR</li>
+								<li><strong>Status:</strong> Available</li>
+								<li><strong>Address:</strong> Istanbul</li>
+								<li><strong>Phone:</strong> <a href="tel:0546 432 1911">+90 0546 432 1911</a></li>
+								<li><strong>E-mail:</strong> <a href="mailto:e.tanhan@frelens.com">e.tanhan@frelens.com</a> <br>
+								<a style="position:relative; left:1px" href="mailto:emirhakan.tanhan@gmail.com">emirhakan.tanhan@gmail.com</a>
+								</li>
 							</ul>
 						</div>
-						<div class="author">Joe Wilson</div>
+						<div class="author">Emirhakan Tanhan</div>
 					</div>
 
 					<div class="clear"></div>
@@ -1107,16 +1185,21 @@
 		<!-- Footer -->
 		<footer class="footer">
 			<div class="socials">
-				<a target="_blank" href="https://www.facebook.com/">
-					<i class="icon fab fa-facebook-f"></i>
-				</a>
-				<a target="_blank" href="https://www.instagram.com/">
+				<a target="_blank" href="https://www.instagram.com/emirhakn/?hl=tr">
 					<i class="icon fab fa-instagram"></i>
 				</a>
-				<a target="_blank" href="https://dribbble.com/">
-					<i class="icon fab fa-dribbble"></i>
+				<a target="_blank" href="https://www.linkedin.com/in/emirtanhan-/">
+					<i class="icon fab fa-linkedin-in"></i>
 				</a>
+				<a target="_blank" href="https://github.com/EmirhakanTanhan">
+					<i class="icon fab fa-github"></i>
+				</a>
+				<a href="/tr.php">
+					<i ><img style="width: 41px; position:relative; top:6px; filter:grayscale(100%)" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHdpZHRoPSI1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgaWQ9IkJVTElORSI+PGNpcmNsZSBjeD0iMjU2IiBjeT0iMjU2IiBmaWxsPSIjZmNjOGJjIiByPSIyNTYiLz48L2c+PGcgaWQ9Ikljb25zIj48Y2lyY2xlIGN4PSIyNTYiIGN5PSIyNTYiIGZpbGw9IiNkYjFiMWIiIHI9IjI1NiIvPjxwYXRoIGQ9Im0zMDAgNTA4LjIzYTI1Ny4yNCAyNTcuMjQgMCAwIDEgLTQ0IDMuNzdjLTE0MS4zOSAwLTI1Ni0xMTQuNjEtMjU2LTI1NnMxMTQuNjEtMjU2IDI1Ni0yNTZhMjU3LjI0IDI1Ny4yNCAwIDAgMSA0NCAzLjc3IDI1NiAyNTYgMCAwIDAgMCA1MDQuNDZ6IiBmaWxsPSIjYzQxYzFjIi8+PHBhdGggZD0ibTI1Mi4zIDM3Ny41YTEyMC44MSAxMjAuODEgMCAwIDAgNTguMTktMTQuODMgMTQ2IDE0NiAwIDEgMSAwLTIxMy4zNCAxMjEuNSAxMjEuNSAwIDEgMCAtNTguMTkgMjI4LjE3eiIgZmlsbD0iI2ZmZiIvPjxwYXRoIGQ9Im0zMzkuODEgMTk0LjAyIDQxLjAyIDM1LjMgNDYuMjQtMjguMTEtMjAuODkgNDkuOTIgNDEuMDIgMzUuMjktNTMuOTMtNC40NC0yMC44OSA0OS45MS0xMi40NC01Mi42Ni01My45My00LjQ0IDQ2LjI0LTI4LjExeiIgZmlsbD0iI2ZmZiIvPjxwYXRoIGQ9Im04OCAyNTZhMjU1IDI1NSAwIDAgMCAyMy4zIDEwNi44NSAxNDYgMTQ2IDAgMCAxIDAtMjEzLjcgMjU1IDI1NSAwIDAgMCAtMjMuMyAxMDYuODV6IiBmaWxsPSIjZGJkYmRiIi8+PGcgZmlsbD0iI2UyM2IzYiI+PGNpcmNsZSBjeD0iNDQ0LjQiIGN5PSIxMzkuNTUiIHI9IjE2LjI4Ii8+PGNpcmNsZSBjeD0iNDIwLjQyIiBjeT0iMTE1LjU3IiByPSIxMS41MyIvPjwvZz48L2c+PC9zdmc+" /></i>
+				</a>
+
 			</div>
+
 		</footer>
 		
 	</div>
